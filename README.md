@@ -36,10 +36,51 @@ Output:
 ## Synonym Replacement:
 This function replaces each word in the given text with one of its synonyms, chosen randomly. This can be useful in generating new samples with different word choices.
 ```python
-from textaugment import synonym_Replacement
+from TextBooster import synonym_Replacement
 
 text = "The quick brown fox jumps over the lazy dog."
 augmented_texts = synonym_Replacement(text)
 
 print(augmented_texts)
 ```
+Output:
+```vbnet
+'The speedy brown slyboots jump over the slothful frank.'
+```
+
+Note that the function returns a single augmented sample. To generate multiple samples, you can call the function multiple times or specify the number of samples to generate using the nbre_samples parameter:
+```python
+from textaugment import synonym_Replacement
+
+text = "The quick brown fox jumps over the lazy dog."
+augmented_texts = synonym_Replacement(text, nbre_samples=3)
+
+print(augmented_texts)
+```
+Output:
+```vbnet
+['The speedy brown fox jumps over the lazy dog.',
+ 'The quick brown fox jumps over the indolent dog.',
+ 'The quick brown fox jumps over the slothful dog.']
+```
+## Dependencies:
+The package has the following dependencies:
+- deep_translator
+- nltk
+- spacy
+- textblob
+
+You can install them using `pip`:
+```python
+pip install deep_translator nltk spacy textblob
+```
+Additionally, you need to download the following data files for `nltk` and `spacy`:
+```python
+nltk.download("wordnet")
+nltk.download("punkt")
+nltk.download("omw-1.4")
+
+python -m spacy download en
+```
+### License:
+This package is licensed under the MIT License.
