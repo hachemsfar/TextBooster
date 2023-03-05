@@ -13,16 +13,33 @@ pip install TextBooster
 ## Usage
 The package provides two functions for data augmentation: back_Translation() and synonym_Replacement().
 
-## back_Translation()
+## Back Translation:
 This function performs back translation of the given text to a randomly chosen target language and then back to the source language. This can be useful in generating new samples with different sentence structures and word choices.
 
 This function performs back translation of the given text to a randomly chosen target language and then back to the source language. This can be useful in generating new samples with different sentence structures and word choices.
 
 ```python
-from textaugment import back_Translation
+from TextBooster import back_Translation
 
 text = "The quick brown fox jumps over the lazy dog."
 augmented_texts = back_Translation(text, nbre_samples=3)
+
+print(augmented_texts)
+```
+Output:
+```vbnet
+['The quick brown fox jumps over the indolent dog.',
+ 'The quick brown fox jumped over the lazy dog.',
+ 'The quick brown fox jumps over the torpid dog.']
+```
+
+## Synonym Replacement:
+This function replaces each word in the given text with one of its synonyms, chosen randomly. This can be useful in generating new samples with different word choices.
+```python
+from textaugment import synonym_Replacement
+
+text = "The quick brown fox jumps over the lazy dog."
+augmented_texts = synonym_Replacement(text)
 
 print(augmented_texts)
 ```
