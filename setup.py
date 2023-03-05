@@ -4,8 +4,9 @@ setup(
     name='TextBooster',
     version='0.1',
     description='Data augmentation techniques for text data using back translation and synonym replacement',
+    readme = "README.md",
     url='https://github.com/hachemsfar/TextBooster',
-    author='Your Name',
+    author='Hachem Sfar',
     author_email='hachem.sfar@supcom.tn',
     classifiers=[
         'Development Status :: 3 - Alpha',
