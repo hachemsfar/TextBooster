@@ -7,7 +7,7 @@ This package provides data augmentation techniques for text data using back tran
 You can install the package using `pip`:
 
 ```python
-pip install textaugment
+pip install TextBooster
 ```
 
 Usage
