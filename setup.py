@@ -1,9 +1,15 @@
 from setuptools import setup, find_packages
+import os
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name='TextBooster',
     version='0.1',
     description='Data augmentation techniques for text data using back translation and synonym replacement',
+    long_description=read('README.md'),
+    long_description_content_type='text/markdown',
     readme = "README.md",
     url='https://github.com/hachemsfar/TextBooster',
     author='Hachem Sfar',
