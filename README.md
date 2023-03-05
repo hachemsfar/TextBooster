@@ -18,3 +18,11 @@ This function performs back translation of the given text to a randomly chosen t
 
 This function performs back translation of the given text to a randomly chosen target language and then back to the source language. This can be useful in generating new samples with different sentence structures and word choices.
 
+```python
+from textaugment import back_Translation
+
+text = "The quick brown fox jumps over the lazy dog."
+augmented_texts = back_Translation(text, nbre_samples=3)
+
+print(augmented_texts)
+```
