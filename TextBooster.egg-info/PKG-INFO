@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: TextBooster
+Version: 0.1
+Summary: Data augmentation techniques for text data using back translation and synonym replacement
+Home-page: https://github.com/hachemsfar/TextBooster
+Author: Your Name
+Author-email: hachem.sfar@supcom.tn
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/hachemsfar/TextBooster/issues
+Project-URL: Source, https://github.com/hachemsfar/TextBooster
+Keywords: text data augmentation back translation synonym replacement
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: dev
+
+UNKNOWN
+
