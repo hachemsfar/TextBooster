@@ -8,6 +8,7 @@ You can install the package using `pip`:
 
 ```python
 pip install textaugment
+```
 
 Usage
 The package provides two functions for data augmentation: `back_Translation()` and `synonym_Replacement()`.
