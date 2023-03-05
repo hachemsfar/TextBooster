@@ -10,8 +10,8 @@ You can install the package using `pip`:
 pip install TextBooster
 ```
 
-Usage
-The package provides two functions for data augmentation: `back_Translation()` and `synonym_Replacement()`.
+## Usage
+The package provides two functions for data augmentation: back_Translation() and synonym_Replacement().
 
 ## back_Translation()
 This function performs back translation of the given text to a randomly chosen target language and then back to the source language. This can be useful in generating new samples with different sentence structures and word choices.
