@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TextBooster/Text_Generation.py
+TextBooster/__init__.py
+TextBooster.egg-info/PKG-INFO
+TextBooster.egg-info/SOURCES.txt
+TextBooster.egg-info/dependency_links.txt
+TextBooster.egg-info/requires.txt
+TextBooster.egg-info/top_level.txt

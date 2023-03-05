@@ -1,0 +1,7 @@
+deep_translator
+nltk
+spacy
+textblob
+
+[dev]
+pytest
